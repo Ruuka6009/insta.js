@@ -1669,15 +1669,15 @@ instagram-private-api@^1.34.0, instagram-private-api@^1.41.0:
     url-regex "^5.0.0"
     utility-types "^3.10.0"
 
-instagram_mqtt@^0.2.16:
-  version "0.2.16"
-  resolved "https://registry.yarnpkg.com/instagram_mqtt/-/instagram_mqtt-0.2.16.tgz#71c5acd9ee22d2824db85e4cf9400b6f10c0e1d7"
-  integrity sha512-yEwEfrDixuzVc2yfuHqb8rgOaQwQrfZpWMhp5an8J/KMkcx23OELkuO2j3KFURJRYdoKv2lC9acIwSRyRlarTg==
+instagram_mqtt@^0.2.17:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/instagram_mqtt/-/instagram_mqtt-0.2.17.tgz#2563d6bb0afb3b9433eec8991fe73c1426420dd7"
+  integrity sha512-CEM/bg9adRgrJHGxpyf/Y0/jvO6MLyCctT/D1Sl/cBAkZ+xur7ynSdFtJNGMPE93fiD/sTbKwYbEyfR096ql7g==
   dependencies:
     chance "^1.1.4"
     debug "^4.1.1"
     instagram-private-api "^1.34.0"
-    mqtts "^0.1.16"
+    mqtts "^0.1.18"
     rxjs "^6.5.4"
 
 install-artifact-from-github@^1.0.2:
@@ -1689,6 +1689,11 @@ ip-regex@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-4.1.0.tgz#5ad62f685a14edb421abebc2fff8db94df67b455"
   integrity sha512-pKnZpbgCTfH/1NLIlOduP/V+WRXzC2MOz3Qo8xmxk8C5GudJLgK5QyLVXOSWy3ParAH7Eemurl3xjv/WXYFvMA==
+
+ip@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ip/-/ip-2.0.0.tgz#4cf4ab182fee2314c75ede1276f8c80b479936da"
+  integrity sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -2132,15 +2137,16 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mqtts@^0.1.16:
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/mqtts/-/mqtts-0.1.17.tgz#f8fbb0e1a1bce7803de86f12b0b41efb143e4c66"
-  integrity sha512-wdzx2nt98p/iOqAmUU8KdQTKsXQ12QNzozZL98rlytjGZlgd6vr4rfeyKDHBA+LxWsPyxaMNPK9xGoUA9QKs9g==
+mqtts@^0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/mqtts/-/mqtts-0.1.18.tgz#2c45e64edb061ea8706cf37497db6d2f88769ef3"
+  integrity sha512-aqYWlW4UovI0n8vOx9f6JsdhsMNZln+Ma/A0gd9QKlw/Zzn/fh9SGnBv88OzEf7KdfScniwM+URUOQ1RFoHBIA==
   dependencies:
     "@types/ws" "^7.2.1"
     debug "^4.1.1"
     lodash "^4.17.15"
     rxjs "^6.5.4"
+    socks "^2.4.4"
     ts-custom-error "^3.1.1"
     ts-xor "^1.0.8"
     ws "^7.2.1"
@@ -2808,6 +2814,11 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
+smart-buffer@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/smart-buffer/-/smart-buffer-4.2.0.tgz#6e1d71fa4f18c05f7d0ff216dd16a481d0e8d9ae"
+  integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
+
 snakecase-keys@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/snakecase-keys/-/snakecase-keys-3.2.0.tgz#3ac428d643c6634eca461192fc7f731378fa7bd1"
@@ -2815,6 +2826,14 @@ snakecase-keys@^3.1.0:
   dependencies:
     map-obj "^4.0.0"
     to-snake-case "^1.0.0"
+
+socks@^2.4.4:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/socks/-/socks-2.7.1.tgz#d8e651247178fde79c0663043e07240196857d55"
+  integrity sha512-7maUZy1N7uo6+WVEX6psASxtNlKaNVMlGQKkG/63nEDdLOWNbiUMoLK7X4uYoLhQstau72mLgfEWcXcwsaHbYQ==
+  dependencies:
+    ip "^2.0.0"
+    smart-buffer "^4.2.0"
 
 sort-array@^2.0.0:
   version "2.0.0"
