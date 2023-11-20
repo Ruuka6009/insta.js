@@ -693,6 +693,11 @@ class-transformer@^0.2.0:
   resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.2.3.tgz#598c92ca71dcca73f91ccb875d74a3847ccfa32d"
   integrity sha512-qsP+0xoavpOlJHuYsQJsN58HXSl8Jvveo+T37rEvCEeRfMWoytAyR0Ua/YsFgpM6AZYZ/og2PJwArwzJl1aXtQ==
 
+class-transformer@^0.3.1:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.3.2.tgz#779ef5f124784324b40f8e927c774bd96cdecd4b"
+  integrity sha512-9QY6QXBH/+Gt1C3HBmJCrgY6+EFpIa6aLjfDnlXFx0zQl/HjrCE7qoaI0srNrxpMIfsobCpgUdDG5JYtJOpVsw==
+
 cli-cursor@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
@@ -1642,7 +1647,7 @@ inquirer@^7.0.0:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-instagram-private-api@^1.34.0, instagram-private-api@^1.41.0:
+instagram-private-api@^1.34.0:
   version "1.41.0"
   resolved "https://registry.yarnpkg.com/instagram-private-api/-/instagram-private-api-1.41.0.tgz#5fe523db7296e17e5e001a69b074f9a69037c7cb"
   integrity sha512-z45r3sCsaYsmqXydwpBbP4tcAPR8sJicF9x4sl4LQJuXsvAfd3WCexg+FYvkCMncsCCkTEJp6JsD8QbR+uyM3w==
@@ -1669,6 +1674,33 @@ instagram-private-api@^1.34.0, instagram-private-api@^1.41.0:
     url-regex "^5.0.0"
     utility-types "^3.10.0"
 
+instagram-private-api@^1.45.3:
+  version "1.45.3"
+  resolved "https://registry.yarnpkg.com/instagram-private-api/-/instagram-private-api-1.45.3.tgz#c5273b278c967645fae4b16cb4aac58a45f88567"
+  integrity sha512-IybVclR0Ahh01rn/4r9sxRn4vkfbfMXAXFVljsGk51mfL/EyyP6Yn+aWIxbG/JboArR1POJzaFI5bQOR99R3xA==
+  dependencies:
+    "@lifeomic/attempt" "^3.0.0"
+    "@types/chance" "^1.0.2"
+    "@types/request-promise" "^4.1.43"
+    bluebird "^3.7.1"
+    chance "^1.0.18"
+    class-transformer "^0.3.1"
+    debug "^4.1.1"
+    image-size "^0.7.3"
+    json-bigint "^1.0.0"
+    lodash "^4.17.20"
+    luxon "^1.12.1"
+    reflect-metadata "^0.1.13"
+    request "^2.88.0"
+    request-promise "^4.2.4"
+    rxjs "^6.5.2"
+    snakecase-keys "^3.1.0"
+    tough-cookie "^2.5.0"
+    ts-custom-error "^2.2.2"
+    ts-xor "^1.0.6"
+    url-regex-safe "^3.0.0"
+    utility-types "^3.10.0"
+
 instagram_mqtt@^0.2.16:
   version "0.2.16"
   resolved "https://registry.yarnpkg.com/instagram_mqtt/-/instagram_mqtt-0.2.16.tgz#71c5acd9ee22d2824db85e4cf9400b6f10c0e1d7"
@@ -1684,6 +1716,11 @@ install-artifact-from-github@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.0.2.tgz#e1e478dd29880b9112ecd684a84029603e234a9d"
   integrity sha512-yuMFBSVIP3vD0SDBGUqeIpgOAIlFx8eQFknQObpkYEM5gsl9hy6R9Ms3aV+Vw9MMyYsoPMeex0XDnfgY7uzc+Q==
+
+ip-regex@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-4.3.0.tgz#687275ab0f57fa76978ff8f4dddc8a23d5990db5"
+  integrity sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q==
 
 ip-regex@^4.1.0:
   version "4.1.0"
@@ -1886,6 +1923,13 @@ json-bigint@^0.3.0:
   dependencies:
     bignumber.js "^9.0.0"
 
+json-bigint@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/json-bigint/-/json-bigint-1.0.0.tgz#ae547823ac0cad8398667f8cd9ef4730f5b01ff1"
+  integrity sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==
+  dependencies:
+    bignumber.js "^9.0.0"
+
 json-schema-traverse@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
@@ -2017,6 +2061,11 @@ lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.5:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+
+lodash@^4.17.20:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 luxon@^1.12.1:
   version "1.24.1"
@@ -3100,6 +3149,11 @@ tlds@^1.209.0:
   resolved "https://registry.yarnpkg.com/tlds/-/tlds-1.209.0.tgz#13cfdc039331d49730ca7bfa9526fc9b319e2cec"
   integrity sha512-KVsZ1NSpBodpo42/JIwTyau7SqUxV/qQMp2epSDPa99885LpHWLaVCCt8CWzGe4X5YIVNr+b6bUys9e9eEb5OA==
 
+tlds@^1.228.0:
+  version "1.246.0"
+  resolved "https://registry.yarnpkg.com/tlds/-/tlds-1.246.0.tgz#b66ea74336965a4d7cbf744bea9a9c32336c1de6"
+  integrity sha512-ZxWlQyGhBMuBsFHYniTSGmKhJfxjQ+swTfRC6W6FdAa5BLs9fMWDPzzak1umZeObMqi5Dx6UScBGNjLtjySkBA==
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -3245,6 +3299,14 @@ url-regex-safe@^1.0.2:
     ip-regex "^4.1.0"
     re2 "^1.15.4"
     tlds "^1.209.0"
+
+url-regex-safe@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/url-regex-safe/-/url-regex-safe-3.0.0.tgz#102a38f74a1a731973fa42690c6a56656fddff12"
+  integrity sha512-+2U40NrcmtWFVjuxXVt9bGRw6c7/MgkGKN9xIfPrT/2RX0LTkkae6CCEDp93xqUN0UKm/rr821QnHd2dHQmN3A==
+  dependencies:
+    ip-regex "4.3.0"
+    tlds "^1.228.0"
 
 url-regex@^5.0.0:
   version "5.0.0"
