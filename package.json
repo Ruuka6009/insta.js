@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/Androz2091/insta.js#readme",
   "dependencies": {
-    "@discordjs/collection": "^0.1.6",
+    "@discordjs/collection": "^0.8.0",
     "get-urls": "^10.0.0",
     "instagram-private-api": "^1.41.0",
     "instagram_mqtt": "^0.2.16",
